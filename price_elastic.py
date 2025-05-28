@@ -45,7 +45,7 @@ items = [
     {"weight": 2, "value": 10, "elasticity": -1.0},  # value = 10 - 1.0 * popularity
     {"weight": 3, "value": 8,  "elasticity": -0.8},
     {"weight": 4, "value": 15, "elasticity": -2.0},
-    {"weight": 5, "value": 4,  "elasticity": +0.5},  # value rises with use (network effect)
+    {"weight": 5, "value": 4,  "elasticity": 0.5},  # value rises with use (network effect)
     {"weight": 1, "value": 2,  "elasticity": 0.0},   # fixed value
 ]
 capacity = 10
